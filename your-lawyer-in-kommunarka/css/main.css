@@ -359,6 +359,9 @@ h1, h2, h3, h4, h5, h6 {
     margin-right: 60px;
 
 }
+.logo-title {
+	display: flex;
+}
 .title-footer {
     margin-top: 139px;
     color: whitesmoke;
@@ -391,12 +394,7 @@ h1, h2, h3, h4, h5, h6 {
 		justify-content: center;
 	}
 	.hero {
-		position: relative;
-		width: 100%;
-		height: 200px;
-		top: 0;
-		margin-top: 40px;
-		margin-bottom: 50px;
+		display: none;
 	}
 	.vh-dependent {
 		height: auto;
@@ -419,7 +417,12 @@ h1, h2, h3, h4, h5, h6 {
 		text-align: center;
 		margin-top: 60px;
 	}
-
+	.logo-title {
+		display: flex;
+	}
+	.hero {
+		display: none;
+	}
 }
 /*.work-wrap__item img {*/
 /*	height: 400px;*/
@@ -431,6 +434,13 @@ h1, h2, h3, h4, h5, h6 {
 	.section-title__heading_review {
 		font-size: 20px;
 	}
+	.hero {
+		display: block;
+	}
+	.logo-title {
+		display: flex;
+	}
+
 }
 @media screen and (max-width: 576px) {
 	.serv-list_left {
@@ -445,21 +455,64 @@ h1, h2, h3, h4, h5, h6 {
 		margin-bottom: 90px;
 	}
 	.clients-row {
-		flex-direction: column;
+		flex-direction: initial;
 		text-align: center;
 	}
 	.clients-row__item {
 		margin-bottom: 50px;
 	}
-	/*.clients-row svg{*/
-	/*	width: 10px;*/
-	/*	height: 10px;*/
-	/*}*/
+	.logo-title {
+		display: block;
+
+	}
+	.logo-title h2{
+		margin-top: -40px;
+		font-size: 16px;
+	}
 	.work-tabs {
 		flex-direction: column;
 	}
 	.work-tabs__item {
 		margin-bottom: 40px;
+	}
+	.offer-cont__text {
+		margin-bottom: 100px;
+	}
+	.offer-cont__title {
+		color: rgba(255,255,255,0.9);
+	}
+	.hero {
+		display: none;
+	}
+	.offer {
+		margin-top: -100px;
+		background: url('../img/Screenshot_7.png') no-repeat center center;
+		z-index: 0;
+		width: 100%;
+		color: rgba(255,255,255,0.7);
+	}
+	.offer-bg {
+		background-color: rgba(0,0,0,0.6);
+		z-index: 999;
+		color: white;
+		text-align: center;
+	}
+	.offer-cont__text {
+		color: rgba(255,255,255,0.7);
+		text-align: center;
+		font-weight: 700;
+		font-size: 16px;
+	}
+	.offer-cont__btn {
+		margin-bottom: 50px;
+		width: 70%;
+	}
+	.worked {
+		margin-top: 60px;
+	}
+	.footer {
+		display: flex;
+		width: 100%;
 	}
 
 }
