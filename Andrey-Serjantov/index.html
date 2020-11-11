@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Андрей Сержантов</title>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="description" content="Slicebox - 3D Image Slider with Fallback"/>
+    <meta name="keywords"
+          content="jquery, css3, 3d, webkit, fallback, slider, css3, 3d transforms, slices, rotate, box, automatic"/>
+    <meta name="author" content="Pedro Botelho for Codrops"/>
+    <link rel="shortcut icon" href="images/icon.png">
+    <link rel="stylesheet" type="text/css" href="css/demo.css"/>
+    <link rel="stylesheet" type="text/css" href="css/slicebox.css"/>
+    <link rel="stylesheet" type="text/css" href="css/custom.css"/>
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="css/style4.css"/>
+    <script type="text/javascript" src="js/modernizr.custom.46884.js"></script>
+</head>
+<body>
+
+
+<header id="header" class="header">
+    <div class="codrops-top clearfix">
+        <!--        <a href="https://vk.com/andrej1181"><span>&laquo; На vk страницу Андрея</span></a>-->
+        <a href="#" class="burger-link">
+            <span></span>
+        </a>
+
+        <div class="nav">
+            <ul class="mobile-menu">
+                <li class="selected"><a href="index4.html" class="menu-item">Главная</a></li>
+                <li><a href="#testimonials" class="menu-item">Отзывы</a></li>
+                <li><a href="#sb-slider" class="menu-item">Фотогалерея</a></li>
+                <li><a href="#price" class="menu-item">Стоимость услуг</a></li>
+                <li><a href="#title" class="menu-item">Заказать</a></li>
+            </ul>
+        </div>
+    </div>
+    <!--        desctop-menu-->
+    <div class="container ">
+        <div class="row">
+            <div class="desctop-menu col-lg-12 justify-content-center ">
+                <nav>
+                    <ul class="menu-buts d-flex justify-content-center">
+                        <li class="menu__item-buts">
+                            <a href="#testimonials">Отзывы</a>
+                        </li>
+                        <li class="menu__item-buts">
+                            <a href="#sb-slider">Фотогалерея</a>
+                        </li>
+                        <li class="menu__item-buts">
+                            <a href="#price">Стоимость услуг</a>
+                        </li>
+                        <li class="menu__item-buts">
+                            <a href="#title">Заказать</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="row justify-content-lg-start offer-position">
+            <div class="col-lg-6">
+                <div class="offer">
+                    <h1 class="offer__title">
+                        Ваш персональный собеседник
+                    </h1>
+                    <div class="offer__intro">
+                        Ваш персональный собеседник, при необходимости собутыльник, и просто человек,
+                        с которым всегда приятно поговорить
+                    </div>
+                    <p class="offer__text">
+                        У каждого бывают в жизни моменты, когда хочется выпить, но увы, не с кем.
+                        В наше время у многих, особенно в период самоизоляции, существует проблема
+                        с общением со своими друзьями, знакомыми. Кто-то из них живёт далеко,
+                        кто-то завёл семью и теперь всё время занят. <br>
+                        Специально для таких случаев - есть я!<br>
+                        Могу побухать с Вами online или offline.
+                    </p>
+                    <p class="offer__text-incognito">Гарантируется 100%-ная анонимность!</p>
+                    <ul class="icons d-flex">
+                        <li class="icons__item animated hinge">
+                            <a href="#"><i class="fas fa-child"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</header>
+
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="title">
+                    <h2 class="title__main">
+                        Немного обо мне:
+                    </h2>
+                    <p class="title__text">
+                        Я весёлый парень. Могу легко с кем угодно поговорить
+                        на любые темы - от ядерной физики, до философии Канта.
+                        Живой, жизнерадостный, сильный и уравновешенный человек.
+                        Легко схожусь с людьми, умею поднять настроение, в трудных
+                        ситуациях не теряю чувства юмора
+                    </p>
+                </div>
+            </div>
+            <div class="wrapper">
+
+                <ul id="sb-slider" class="sb-slider">
+                    <li>
+                        <a href="http://www.flickr.com/photos/strupler/2969141180" target="_blank">
+                            <img src="images/1_.jpg" alt="image1"/></a>
+                        <div class="sb-description">
+                            <p>Поддержу любую беседу</p>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="http://www.flickr.com/photos/strupler/2968268187" target="_blank">
+                            <img src="images/2_.jpg" alt="image2"/></a>
+                        <div class="sb-description">
+                            <p>Умею рассказывать анекдоты</p>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="http://www.flickr.com/photos/strupler/2968114825" target="_blank">
+                            <img src="images/Screenshot_2.jpg" alt="image1"/></a>
+                        <div class="sb-description">
+                            <p>Служил в армии</p>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="http://www.flickr.com/photos/strupler/2968122059" target="_blank">
+                            <img src="images/4_.jpg" alt="image1"/></a>
+                        <div class="sb-description">
+                            <p>Всегда готов к приключениям</p>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="http://www.flickr.com/photos/strupler/2969119944" target="_blank">
+                            <img src="images/andre4.jpg" alt="image1"/></a>
+                        <div class="sb-description">
+                            <p>Умею задвигать тосты</p>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="http://www.flickr.com/photos/strupler/2968126177" target="_blank">
+                            <img src="images/5_.jpg" alt="image1"/></a>
+                        <div class="sb-description">
+                            <p>Не выёбываюсь</p>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="http://www.flickr.com/photos/strupler/2968945158" target="_blank">
+                            <img src="images/8_.jpg" alt="image1"/></a>
+                        <div class="sb-description">
+                            <p>Люблю природу</p>
+                        </div>
+                    </li>
+                </ul>
+
+                <div id="shadow" class="shadow"></div>
+
+                <div id="nav-arrows" class="nav-arrows">
+                    <a href="#">Next</a>
+                    <a href="#">Previous</a>
+                </div>
+
+                <div id="nav-dots" class="nav-dots">
+                    <span class="nav-dot-current"></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+
+            </div><!-- /wrapper -->
+        </div>
+    </div>
+    </section>
+    <section id="features" class="features">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="title">
+                        <h2 id="price" class="title__main">
+                            Стоимость услуг:
+                        </h2>
+                        <p class="title__text">
+                            *Весь алкоголь и закуски оплачиваются клиентом. <br>
+                            *Наличе закусок - ОБЯЗАТЕЛЬНО.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="feature d-flex">
+                        <i class="fas fa-clock feature__icon"></i>
+                        <div class="feature__block">
+                            <h3 class="feature__title">
+                                Собутыльник на час:
+                            </h3>
+                            <p class="feature__text">
+                                Приеду в течение часа в пределах МКАД. Локацию выбирает клиент.
+                                Можно в квартире, можно в кафе, ресторанах и т. д.
+                                В тёплое время можно на улице.
+                            </p>
+                            <p class="title__text">
+                                500 рублей/в час
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="feature d-flex">
+                        <i class="fas fa-user-clock feature__icon"></i>
+                        <div class="feature__block">
+                            <h3 class="feature__title">
+                                Собутыльник на день:
+                            </h3>
+                            <p class="feature__text">
+                                Эту услугу заказывать лучше заранее,
+                                желательно за день-два. Локацию выбирает клиент.
+                                Можно в квартире, можно в кафе, ресторанах и т. д.
+                                В тёплое время можно на улице.
+                            </p>
+                            <p class="title__text">
+                                3000 рублей/за 8 часов
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="feature d-flex">
+                        <i class="fas fa-calendar-week feature__icon"></i>
+                        <div class="feature__block">
+                            <h3 class="feature__title">
+                                Собутыльник на неделю:
+                            </h3>
+                            <p class="feature__text">
+                                Только по предварительной заявке! Обязательно должно
+                                быть обеспечено четырёхразовое ежедневное питание, а также
+                                комфортабельное спальное место.
+                            </p>
+                            <p class="title__text">
+                                18000 рублей/за 7 дней
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="feature d-flex">
+                        <i class="fas fa-skull-crossbones feature__icon"></i>
+                        <div class="feature__block">
+                            <h3 class="feature__title">
+                                В запой на месяц:
+                            </h3>
+                            <p class="feature__text">
+                                Только по предварительной заявке!
+                                Условия обсуждаются с каждым клиентом отдельно
+                            </p>
+                            <p class="title__text">
+                                Стоимость обсуждается с каждым клиентом отдельно
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="feature d-flex">
+                        <i class="fas fa-candy-cane feature__icon"></i>
+                        <div class="feature__block">
+                            <h3 class="feature__title">
+                                Участник банкета, свадьбы:
+                            </h3>
+                            <p class="feature__text">
+                                Эту услугу заказывать лучше заранее,
+                                желательно за день-два.
+                            </p>
+                            <p class="title__text">
+                                4000 рублей/за 8 часов
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="feature d-flex">
+                        <i class="fab fa-internet-explorer feature__icon"></i>
+                        <div class="feature__block">
+                            <h3 class="feature__title">
+                                Собутыльник ONLINE:
+                            </h3>
+                            <p class="feature__text">
+                                Zoom, WhatsApp, Skype, Viber...
+                                Алкоголь и закуски можете заказать мне на дом через яндекс-доставку.
+                            </p>
+                            <p class="title__text">
+                                300 рублей/в час
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="testimonials" class="testimonials">
+        <h2 class="title__main">
+            Отзывы:
+        </h2>
+        <div class="container">
+            <div class="row">
+                <div class="owl-carousel contributer-carousel owl-theme justify-content-center">
+
+                    <!-- one slide -->
+                    <div class="row">
+                        <div class="col-md-4 ml-auto mr-auto">
+                            <div class="section-title">
+                                <h2 class="title__text_otzyv">
+                                    "Спасибо Андрюхе, который составил мне компанию.
+                                    Надоело бухать дома одному.
+                                    Теперь есть с кем поговорить по душам,
+                                    буду и дальше к нему обращаться"
+                                </h2>
+                                <div class="contributor">
+                                    <h3 class="title__text">
+                                        Анатолий Химулин
+                                    </h3>
+                                    <p class="contributor__desc">
+                                        Работник банка
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 ml-auto mr-auto">
+                            <img src="images/odin.jpg" alt="Polina Kuzina" class="cont-photo img-fluid">
+                        </div>
+                    </div>
+                    <!-- secont slide -->
+                    <div class="row">
+                        <div class="col-md-4 ml-auto mr-auto">
+                            <div class="section-title">
+                                <h2 class="title__text_otzyv">
+                                    " Сидели с девочками в баре, но без мужской компании было скучно.
+                                    Обратились к Андрею. Приехал в течение 20 минут, весь вечер шутил, было очень
+                                    весело!
+                                    А в конце ещё бонусом шуганул местных гопников, которые пытались к нам пристать.
+                                    С тех пор, когда собираемся встретиться с подругами - всегда зовём этого весёлого
+                                    парня с собой!"
+                                </h2>
+                                <div class="contributor">
+                                    <h3 class="title__text">
+                                        Анюта Абраменко
+                                    </h3>
+                                    <p class="contributor__desc">
+                                        Менеджер по продажам
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 ml-auto mr-auto">
+                            <img src="images/devushki.jpg" alt="Hasid" class="cont-photo img-fluid">
+                        </div>
+                    </div>
+                    <!-- one slide -->
+                    <div class="row">
+                        <div class="col-md-4 ml-auto mr-auto">
+                            <div class="section-title">
+                                <h2 class="title__text_otzyv">
+                                    "У нас был очень тухлый корпоратив, пока не позвали Андрюху.
+                                    Вот после этого началось самое интересное! Зажигали всю ночь!
+                                    Этот парень сделал наш корпоратив. Вторую половину даже плохо помню. <br>
+                                    Правда, начальник половину сотрудников после такого уволил, но это того стоило!"
+                                </h2>
+                                <div class="contributor">
+                                    <h3 class="title__text">
+                                        Дмитрий Карпов
+                                    </h3>
+                                    <p class="contributor__desc">
+                                        Безработный
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 ml-auto mr-auto">
+                            <img src="images/corporative.jpg" alt="Polina Kuzina" class="cont-photo img-fluid">
+                        </div>
+                    </div>
+                    <!-- one slide -->
+                    <div class="row">
+                        <div class="col-md-4 ml-auto mr-auto">
+                            <div class="section-title">
+                                <h2 class="title__text_otzyv">
+                                    "Живу один, знакомых особо нет, да и в целом я интроверт.
+                                    Иногда хочется выпить, но пить одному - это прямой путь к алкоголизму.
+                                    Поэтому, услуги Андрюхи как раз кстати. Особенно, в период пандемии,
+                                    т. к. сходить никуда нельзя, а с Андрюхой можно спокойно пить по видеозвязи,
+                                    не выходя из дома и не подвергаясь риску заразиться Covid-19"
+                                </h2>
+                                <div class="contributor">
+                                    <h3 class="title__text">
+                                        Константин Громов
+                                    </h3>
+                                    <p class="contributor__desc">
+                                        Вэб-программист
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 ml-auto mr-auto">
+                            <img src="images/prorgammist.jpg" alt="Polina Kuzina" class="cont-photo img-fluid">
+                        </div>
+                    </div>
+                    <!-- one slide -->
+                    <div class="row">
+                        <div class="col-md-4 ml-auto mr-auto">
+                            <div class="section-title">
+                                <h2 class="title__text_otzyv">
+                                    "Я сам из Москвы. Заказал услугу "собутыльник" от Андрюхи на выходные.
+                                    Проснулись мы через неделю, почему-то уже в Калиниграде.
+                                    Позже выяснилось, что Андрей всё это время меня сопровождал,
+                                    следил, чтобы я не попал к какую-нибудь передрягу. Пару раз даже отмазал от ментов.
+                                    Пришлось, правда, доплатить за лишнюю неделю, но было круто, но о чём не жалею"
+                                </h2>
+                                <div class="contributor">
+                                    <h3 class="title__text">
+                                        Иван Затевахин
+                                    </h3>
+                                    <p class="contributor__desc">
+                                        Бизнесмен
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 ml-auto mr-auto">
+                            <img src="images/businessman.jpg" alt="Polina Kuzina" class="cont-photo img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="touch" class="touch">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div id="title" class="title">
+                        <h2 class="title__main yellow">
+                            Заказать обратный звонок
+                        </h2>
+                        <p class="title__text">
+                            Введите номер свой телефона. Я свяжусь с Вами в ближайшее время.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <form action="#" class="form">
+                        <input type="tel" placeholder="Введите номер телефона" class="form__input" required>
+                        <button type="submit" class="form__btn">ОТПРАВИТЬ</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer id="footer" class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="col-lg-6 credits">
+                        <a href="https://vk.com/andrej1181"><i class="fab fa-vk social__icon"></i></a>
+                        <i class="fab fa-facebook-f social__icon"></i>
+                        <i class="fab fa-odnoklassniki social__icon"></i>
+                        <i class="fab fa-instagram social__icon"></i>
+                    </div>
+                    <div class="child">
+                        <a href="#"><i class="fas fa-child"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!--			<p class="info"><strong>Телефон: </strong><a href="tel:+74951234567"> +70963495835</a></p>-->
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.slicebox.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/slicebox4.js"></script>
+</body>
+</html>
+
